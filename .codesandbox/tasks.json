@@ -1,22 +1,34 @@
 {
   // These tasks will run in order when initializing your CodeSandbox project.
-  "setupTasks": ["pip install -r requirements.txt"],
+  "setupTasks": [
+    {
+      "command": "pip install -r requirements.txt",
+      "name": "pip install -r requirements.txt"
+    }
+  ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "start": {
-      "name": "start",
-      "command": "python main.py",
+    "Jupyter Notebook": {
+      "name": "Jupyter Notebook",
+      "command": "jupyter notebook --ip='*' --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.webbrowser_open_new=0 --NotebookApp.allow_remote_access=True  --ServerApp.disable_check_xsrf=True --NotebookApp.default_url='/notebooks/CodeSandbox.ipynb' --allow-root --NotebookApp.tornado_settings='{\"headers\":{\"Content-Security-Policy\": \"frame-ancestors *;\"}}' ",
       "runAtStart": true,
+      "preview": {
+        "port": 8888
+      },
       "restartOn": {
-        "files": ["main.py"]
+        "branch": false,
+        "clone": false,
+        "resume": false
       }
     },
-    "install-dependencies": {
-      "name": "Installing Dependencies",
-      "command": "pip install -r requirements.txt",
+    "Jupyter Lab": {
+      "name": "Jupyter Lab",
+      "command": "jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_remote_access=True  --ServerApp.disable_check_xsrf=True --allow-root",
       "restartOn": {
-        "files": ["requirements.txt"]
+        "branch": false,
+        "clone": false,
+        "resume": false
       }
     }
   }
