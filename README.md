@@ -16,27 +16,41 @@ Everything runs in **CodeSandbox**, inside a preconfigured virtual environment (
 ## 🚀 1. Getting Started
 
 ### **Step 1 — Open the CodeSandbox link shared by your instructor**
-This link loads a fully configured environment with Python and Jupyter Notebook preinstalled.
-Link:
+This link loads a fully configured environment with Python and Jupyter Notebook preinstalled:
 
-### **Step 2 — Fork the sandbox**
-Click the **Fork** button at the top-right of CodeSandbox.  
-This creates **your own editable workspace**.
+🔗 **https://codesandbox.io/p/devbox/ctte-session3-homework-df48ql**
 
-### **Step 3 — Wait for setup to complete**
-CodeSandbox automatically runs:
+### **Step 2 — Sign in to CodeSandbox (required for saving your work)**
+Click **“Sign in”** at the top-right.  
+You can use:
+- Your **Google account**
+- Your **GitHub account**
+- Or create a simple CodeSandbox account
 
-- `pip install -r requirements.txt`
-- Starts **Jupyter Notebook** on port **8888**
+You must be signed in so that:
+- You can **Fork** the project  
+- Your work will **auto-save**  
+- You can **publish to GitHub** at the end
 
-You can watch the logs in the terminal.  
-Once you see the message that Jupyter Notebook is running, proceed to the next step.
+### **Step 3 — Fork the sandbox**
+Click the **Fork** button at the top-right.  
+This creates **your own editable workspace** (your personal copy of the environment).
+
+### **Step 4 — Wait for setup to complete**
+CodeSandbox will automatically:
+
+- Install dependencies using `pip install -r requirements.txt`
+- Start **Jupyter Notebook** on port **8888**
+
+Watch the logs in the terminal.  
+Once you see *“Jupyter Notebook is running on port 8888”*, move to the next step.
+
 
 ---
 
 ## 📓 2. Opening the Homework Notebook
 
-### **Step 4 — Open port 8888**
+### **Step 1 — Open port 8888**
 CodeSandbox will show a notification or a port badge: Jupyter Notebook running on port 8888
 
 Click:
@@ -45,7 +59,7 @@ Click:
 
 ❗ *Do NOT use the small preview panel — always open the external browser tab.*
 
-### **Step 5 — Open the notebook file**
+### **Step 2 — Open the notebook file**
 In the Jupyter Notebook interface:
 
 1. Navigate to the `homework/` folder  
