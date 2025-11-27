@@ -73,7 +73,9 @@ Your progress is saved automatically in CodeSandbox.
 ## 🤖 3. Running the Rule-Based Chatbot (Homework Part)
 
 Inside the repository, you will find:
+
 Chatbot/ Sample_chatbot_rule-based_CLI.py -> Runs in the terminal
+
 Chatbot/ Sample_chatbot_rule-based_Streamlit.py -> Opens a separate window and runs using Streamlit UI
 
 To run the CLI chatbot:
