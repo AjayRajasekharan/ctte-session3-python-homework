@@ -120,6 +120,7 @@ Try pushing manually:
 
 ```bash
 git push
+```
 
 If it still fails, wait 10–15 seconds and retry — CodeSandbox occasionally delays GitHub syncing.
 
