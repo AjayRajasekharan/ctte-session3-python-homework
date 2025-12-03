@@ -36,24 +36,26 @@ You must be signed in so that:
 Click the **Fork** button at the top-right.  
 This creates **your own editable workspace** (your personal copy of the environment).
 
-### **Step 4 — Wait for setup to complete**
-CodeSandbox will automatically:
+### **Step 4 — Run Setup Tasks to complete**
+1. Go to the left hand side pane, and select the 4th icon from top 'CODESANDBOX'.
+2. Select on the 'Run Setup Tasks', it should open a pane in the right hand side and install dependencies.
 
+
+<img width="318" height="762" alt="image" src="https://github.com/user-attachments/assets/a10cc542-c376-4056-8b05-d441d017e030" />
+
+
+3. This should enable the preview and allow you to open external tab in the bottom right corner pop-up.
+
+
+<img width="797" height="883" alt="image" src="https://github.com/user-attachments/assets/fae9ba99-d100-4971-ad91-fbcfdc40d9dd" />
+
+
+CodeSandbox will automatically:
 - Install dependencies using `pip install -r requirements.txt`
 - Start **Jupyter Notebook** on port **8888**
 
 Watch the logs in the terminal.  
 Once you see *“Jupyter Notebook is running on port 8888”*, move to the next step.
-
-**In case auto set-up fails or you're not able to preview/ open in external tab, then:**
-1. Go to the left hand side pane, and select the 4th icon from top 'CODESANDBOX'.
-2. Select on the 'Run Setup Tasks', it should open a pane in the right hand side and install dependencies.
-
-<img width="318" height="762" alt="image" src="https://github.com/user-attachments/assets/a10cc542-c376-4056-8b05-d441d017e030" />
-
-3. This should enable the preview and allow you to open external tab in the bottom right corner pop-up.
-
-<img width="797" height="883" alt="image" src="https://github.com/user-attachments/assets/fae9ba99-d100-4971-ad91-fbcfdc40d9dd" />
 
 ---
 
