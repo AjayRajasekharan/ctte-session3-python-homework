@@ -53,6 +53,8 @@ Once you see *“Jupyter Notebook is running on port 8888”*, move to the next 
 ### **Step 1 — Open port 8888**
 CodeSandbox will show a notification or a port badge: Jupyter Notebook running on port 8888
 
+<img width="447" height="88" alt="image" src="https://github.com/user-attachments/assets/f3262806-46f7-4563-8375-e20bbb9920ef" />
+
 Click:
 
 > **Open in browser**
