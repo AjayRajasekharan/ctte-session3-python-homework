@@ -23,9 +23,9 @@
         "clone": true,
         "resume": true
       }
-    },
+    }
 
-    // "Jupyter Lab": {
+    // ,"Jupyter Lab": {
     //   "name": "Jupyter Lab",
     //   "command": "jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_remote_access=True  --ServerApp.disable_check_xsrf=True --allow-root",
     //   "restartOn": {
