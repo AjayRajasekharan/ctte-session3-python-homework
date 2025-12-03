@@ -57,7 +57,7 @@ CodeSandbox will show a notification or a port badge: Jupyter Notebook running o
 
 Click:
 
-> **Open in browser**
+> **Open in externally**
 
 ❗ *Do NOT use the small preview panel — always open the external browser tab.*
 
