@@ -37,6 +37,4 @@
 
   }
 }
-mmand": "jupyter notebook --ip=0.0.0.0 --pot=8888 --no-browser --allow-root",
-      "r}
-}
+
