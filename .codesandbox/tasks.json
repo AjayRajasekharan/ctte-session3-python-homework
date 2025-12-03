@@ -12,7 +12,7 @@
 
     "Jupyter Notebook": {
       "name": "Jupyter Notebook",
-      "command": "python -m pip install -r requirements.txt && python -m notebook --ip='*' --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.webbrowser_open_new=0 --NotebookApp.allow_remote_access=True  --ServerApp.disable_check_xsrf=True --NotebookApp.default_url='/notebooks/CodeSandbox.ipynb' --allow-root --NotebookApp.tornado_settings='{\"headers\":{\"Content-Security-Policy\": \"frame-ancestors *;\"}}' ",
+      "command": "python -m pip install -r requirements.txt && python -m notebook --ip='*' --port=8888 --no-browser --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.webbrowser_open_new=0 --NotebookApp.allow_remote_access=True --ServerApp.disable_check_xsrf=True --NotebookApp.default_url='/notebooks/CodeSandbox.ipynb' --allow-root --ServerApp.tornado_settings='{\"headers\":{\"Content-Security-Policy\": \"frame-ancestors *;\"}}'",
       // "command": "python -m pip install -r requirements.txt && python -m notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root",
       "runAtStart": true,
       "preview": {
@@ -24,7 +24,6 @@
         "resume": true
       }
     }
-    
 
     // ,"Jupyter Lab": {
     //   "name": "Jupyter Lab",
