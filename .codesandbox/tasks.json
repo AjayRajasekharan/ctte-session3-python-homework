@@ -37,27 +37,6 @@
 
   }
 }
-      "command": "jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root",
-      "runAtStart": true,
-      "preview": {
-        "port": 8888
-      },
-      "restartOn": {
-        "branch": false,
-        "clone": true,
-        "resume": true
-      }
-    }
-
-    // ,"Jupyter Lab": {
-    //   "name": "Jupyter Lab",
-    //   "command": "jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_remote_access=True  --ServerApp.disable_check_xsrf=True --allow-root",
-    //   "restartOn": {
-    //     "branch": false,
-    //     "clone": false,
-    //     "resume": false
-    //   }
-    // }
-
-  }
+mmand": "jupyter notebook --ip=0.0.0.0 --pot=8888 --no-browser --allow-root",
+      "r}
 }
