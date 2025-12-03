@@ -10,9 +10,21 @@
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
 
+
+    "Install Python dependencies": {
+      "name": "Install Python dependencies",
+      "command": "python -m pip install -r requirements.txt",
+      "runAtStart": true,
+      "restartOn": {
+        "branch": false,
+        "clone": true,
+        "resume": true
+      }
+    },
+
     "Jupyter Notebook": {
       "name": "Jupyter Notebook",
-      "command": "python -m pip install -r requirements.txt && python -m notebook --ip='*' --port=8888 --no-browser --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.webbrowser_open_new=0 --NotebookApp.allow_remote_access=True --ServerApp.disable_check_xsrf=True --NotebookApp.default_url='/notebooks/CodeSandbox.ipynb' --allow-root --ServerApp.tornado_settings='{\"headers\":{\"Content-Security-Policy\": \"frame-ancestors *;\"}}'",
+      "command": "python -m pip install -r requirements.txt && python -m notebook --ip='*' --port=8888 --no-browser --ServerApp.token='' --ServerApp.password='' --ServerApp.disable_check_xsrf=True --ServerApp.tornado_settings='{\"headers\":{\"Content-Security-Policy\": \"frame-ancestors *;\"}}' --NotebookApp.default_url='/notebooks/CodeSandbox.ipynb' --allow-root",
       // "command": "python -m pip install -r requirements.txt && python -m notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root",
       "runAtStart": true,
       "preview": {
